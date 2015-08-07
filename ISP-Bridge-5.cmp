@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by PcbNew date = 2/28/2015 4:41:31 PM
+
+BeginCmp
+TimeStamp = /545DC85C;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED0805-sym;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EB1CF1;
+Reference = IC1;
+ValeurCmp = ATMEGA328-P;
+IdModule  = ATmegax8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EB1CA3;
+Reference = J1;
+ValeurCmp = ATMEL_ISP_6PIN;
+IdModule  = ATMEL_ISP_6PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /545DC86B;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = R0805-sym;
+EndCmp
+
+BeginCmp
+TimeStamp = /54614CC3;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = MJTP1250;
+EndCmp
+
+EndListe
