@@ -1,9 +1,28 @@
-Gerbers/*
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
+# Temporary files
+*.000
 *.bak
 *.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*cache*
+
 *.raw
 *.log
 *.dcm
-*.kicad_pcb-bak
-*autosave*
-*cache*
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+.dsn
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Generated Board Files
+Gerbers/*

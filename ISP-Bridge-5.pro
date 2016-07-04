@@ -1,4 +1,4 @@
-update=7/4/2016 1:49:13 AM
+update=7/4/2016 4:08:39 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,8 +6,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -80,3 +78,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=KiCad-Libraries/Ossicone Labs Components
+[general]
+version=1

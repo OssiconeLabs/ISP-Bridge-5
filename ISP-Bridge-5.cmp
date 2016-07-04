@@ -1,38 +1,59 @@
-Cmp-Mod V01 Created by PcbNew date = 2/28/2015 4:41:31 PM
+Cmp-Mod V01 Created by PcbNew   date = 7/4/2016 2:02:07 AM
 
 BeginCmp
-TimeStamp = /545DC85C;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = LED0805-sym;
-EndCmp
-
-BeginCmp
-TimeStamp = /54EB1CF1;
+TimeStamp = 54EB1F47
+Path = /54EB1CF1
 Reference = IC1;
 ValeurCmp = ATMEGA328-P;
 IdModule  = ATmegax8;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EB1CA3;
+TimeStamp = 54EB1F3C
+Path = /54EB1CA3
 Reference = J1;
 ValeurCmp = ATMEL_ISP_6PIN;
 IdModule  = ATMEL_ISP_6PIN;
 EndCmp
 
 BeginCmp
-TimeStamp = /545DC86B;
+TimeStamp = 54EB24AD
+Path = 
+Reference = VAL;
+ValeurCmp = REF;
+IdModule  = Ossicone_Labs_Logo_Giraffe_B.Mask_0.165prop_flipped;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EB261C
+Path = 
+Reference = VAL;
+ValeurCmp = REF;
+IdModule  = Ossicone_Labs_Logo_Text_B.SilkS_0.165prop_flipped;
+EndCmp
+
+BeginCmp
+TimeStamp = 54616378
+Path = /54614CC3
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = MJTP1250;
+EndCmp
+
+BeginCmp
+TimeStamp = 546168CA
+Path = /545DC86B
 Reference = R1;
 ValeurCmp = 1K;
 IdModule  = R0805-sym;
 EndCmp
 
 BeginCmp
-TimeStamp = /54614CC3;
-Reference = SW1;
-ValeurCmp = SW_PUSH;
-IdModule  = MJTP1250;
+TimeStamp = 54616892
+Path = /545DC85C
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED0805-sym;
 EndCmp
 
 EndListe
