@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,9 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Breakout Boards Components
-LIBS:ATMega x8 programmer-cache
-EELAYER 27 0
+LIBS:Ossicone Labs Components
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -54,17 +52,17 @@ F 1 "LED" H 7450 4150 50  0000 C CNN
 F 2 "~" H 7450 4250 60  0000 C CNN
 F 3 "~" H 7450 4250 60  0000 C CNN
 	1    7450 4250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R1
 U 1 1 545DC86B
-P 7450 3700
-F 0 "R1" V 7530 3700 40  0000 C CNN
-F 1 "1K" V 7457 3701 40  0000 C CNN
-F 2 "~" V 7380 3700 30  0000 C CNN
-F 3 "~" H 7450 3700 30  0000 C CNN
-	1    7450 3700
+P 7450 3800
+F 0 "R1" V 7530 3800 40  0000 C CNN
+F 1 "1K" V 7457 3801 40  0000 C CNN
+F 2 "~" V 7380 3800 30  0000 C CNN
+F 3 "~" H 7450 3800 30  0000 C CNN
+	1    7450 3800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -201,12 +199,12 @@ Connection ~ 4500 5800
 $Comp
 L VCC #PWR06
 U 1 1 54EB1E56
-P 7450 3350
-F 0 "#PWR06" H 7450 3450 30  0001 C CNN
-F 1 "VCC" H 7450 3450 30  0000 C CNN
-F 2 "" H 7450 3350 60  0000 C CNN
-F 3 "" H 7450 3350 60  0000 C CNN
-	1    7450 3350
+P 7450 3550
+F 0 "#PWR06" H 7450 3650 30  0001 C CNN
+F 1 "VCC" H 7450 3650 30  0000 C CNN
+F 2 "" H 7450 3550 60  0000 C CNN
+F 3 "" H 7450 3550 60  0000 C CNN
+	1    7450 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -221,7 +219,7 @@ F 3 "" H 7450 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 3350 7450 3450
+	7450 3550 7450 3650
 Wire Wire Line
 	7450 3950 7450 4050
 Wire Wire Line
